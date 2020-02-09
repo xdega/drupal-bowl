@@ -3,6 +3,11 @@ global-css:
   css:
     theme:
       css/base.css: {}
+      css/content.css: {}
+      css/footer.css: {}
+      css/frontpage-feature.css: {}
+      css/header.css: {}
+      css/nav.css: {}
 
 global-scripts:
   version: 1.0

@@ -1,0 +1,35 @@
+.frontpage-feature-row:not(:first-child) {
+    margin-top: 40px;
+}
+
+.frontpage-feature-row .layout__region--second {
+    text-align: center;
+}
+
+.frontpage-feature-row .layout__region--first {
+    margin-bottom: 15px;
+}
+
+.frontpage-feature-row img {
+    border-radius: 0.3rem;
+}
+
+.frontpage-feature-row a {
+    background-color: #ff3e3e;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    transition: 350ms;
+}
+
+.frontpage-feature-row a:hover {
+    background-color: #c80e0e;
+    transition: 350ms;
+}
+
+@media only screen and (max-width: 600px) {
+    .frontpage-feature-row {
+        text-align: center;
+    }
+}
